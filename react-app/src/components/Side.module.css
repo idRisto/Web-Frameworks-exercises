@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    width: 25%;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.textcont {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.topic {
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.textbox {
+    display: flex;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.numero {
+    display: flex;
+    align-self: flex-start;
+    font-weight: 800;
+    color: rgb(65, 150, 164);
+    padding-right: 17px;
+    padding-left: 8px;
+    font-size: 1.75rem;
+}
+
+.aika {
+    display: flex;
+    align-self: flex-start;
+    font-weight: 400;
+    color: grey;
+    padding-right: 10px;
+    padding-left: 8px;
+    font-size: 0.875rem;
+}

@@ -1,0 +1,27 @@
+.tausta {
+    background-color: rgb(210, 211, 224);
+}
+
+.sideByside {
+    display: flex;
+    justify-content: center;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsContainer {
+    width:70%;
+}
+
+.sideContainer {
+    width:30%;
+    margin-left: 20px;
+}
+
+.notificationContainer {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 920px;
+}

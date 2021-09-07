@@ -1,0 +1,14 @@
+.container {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 16px;
+    font-size: 1.625rem;
+    font-weight: 900;
+}
+
+.topic {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid;
+    padding-bottom: 16px;
+}
