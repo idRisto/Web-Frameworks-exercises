@@ -6,8 +6,8 @@ const data = [
     },
     {
       number: '2',
-      topic: 'Ravintolat |',
-      body: 'Turkulainen kebab-pizzeria nousi legendariseen maineeseen nuorten keskuudessa'
+      topic: 'Hoitoala |',
+      body: '"Jäin välillä ihan monttu auki" - Alaa vaihtava helsinkiläinen hoitaja kertoo, millaiseksi hoitotyö on muuttunut'
     },
     {
       number: '3',

@@ -1,7 +1,7 @@
 const data = [
     {
       topic: 'PÄIVÄN TIMANTTI: ',
-      body: 'Heinolan uusi koulu nyt jo homeessa'
+      body: 'Kolme työväenluokasta yliopistoon ponnistanutta ihmistä kertoo, mitä luokkahyppy heiltä vaatii'
     },
     {
       topic: 'FRISBEEGOLF: ',

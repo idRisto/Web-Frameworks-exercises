@@ -1,0 +1,21 @@
+.item
+{
+  background-color: pink;
+  margin-bottom: 5px;  
+  justify-content: space-between;    
+}
+
+.item > div
+{
+  margin-left: 4px;
+}
+
+.flex
+{
+  display: flex;
+}
+
+.itemQtyUnit
+{
+  width: 80px;    
+}

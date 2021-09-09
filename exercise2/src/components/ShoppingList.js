@@ -5,7 +5,7 @@ import ShoppingListItem from './ShoppingListItem';
 const ShoppingList = props => {
   return <ul>
     {
-      props.items.map(i => <ShoppingListItem {...i} key={ i.id }/>)
+      props.items.map(i => <ShoppingListItem {...i} deletePushed={ props.deletePushed } key={ i.id }/>)
     }
   </ul>
 }
