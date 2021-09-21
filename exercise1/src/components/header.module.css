@@ -20,7 +20,6 @@
 }
 
 .EULA {
-    display: flex;
     padding-left: 20px;
 }
 
@@ -31,6 +30,5 @@
 }
 
 .THVi {
-    display: flex;
     margin-left: 32px;
 }

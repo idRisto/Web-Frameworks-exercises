@@ -1,0 +1,4 @@
+.gridi {
+  display: flex;
+  flex-wrap: wrap;
+}
