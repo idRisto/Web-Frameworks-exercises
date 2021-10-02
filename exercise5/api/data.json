@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "tuote": "Lenovo IdeaCentre AIO 3, 24 All-in-One Computer, AMD Ryzen 5 4500U Mobile Processor, Integrated Graphics, 16GB DDR4, 512GB M.2 Name SSD, DVD RW Drive, ",
+      "valmistaja": "Lenovo",
+      "arvostelut": "15.123",
+      "type": "screen",
+      "dollarit": 688,
+      "sentit": "90",
+      "rating": 4.5,
+      "image": "näyttö.jpg"
+    },
+    {
+      "id": 2,
+      "tuote": "Dell Optiplex 7010 Business Desktop Computer - Intel Core i5 up to 3.6GHz, 16GB RAM, 240GB SSD, Windows 10 Pro (Renewed)",
+      "valmistaja": "Dell",
+      "arvostelut": "9.321",
+      "type": "PC",
+      "dollarit": 219,
+      "sentit": "80",
+      "rating": 4,
+      "image": "kone.jpg"
+    },
+    {
+      "id": 3,
+      "tuote": "TUINYO Wireless Headphones Over Ear, Bluetooth Headphones with Microphone, Foldable Stereo Wireless Headset-Rose Gold",
+      "valmistaja": "Tuinyo",
+      "arvostelut": "35.173",
+      "type": "headphones",
+      "dollarit": 24,
+      "sentit": "99",
+      "rating": 5,
+      "image": "headset.jpg"
+    },
+    {
+      "id": 4,
+      "tuote": "HP ProDesk 600 G1 SFF Slim Business Desktop Computer, Intel i5-4570 up to 3.60 GHz, 8GB RAM, 500GB HDD, DVD, USB 3.0, Windows 10 Pro 64 Bit (Renewed)",
+      "valmistaja": "HP",
+      "arvostelut": "5.543",
+      "type": "PC",
+      "dollarit": 156,
+      "sentit": "95",
+      "rating": 5,
+      "image": "kone2.jpg"
+    },
+    {
+      "id": 5,
+      "tuote": "Mr IRONSTONE L-Shaped Desk 50.8, Computer Corner Desk, Home Gaming Desk",
+      "valmistaja": "MrIronstone",
+      "arvostelut": "30.289",
+      "type": "PC",
+      "dollarit": 85,
+      "sentit": "99",
+      "rating": 5,
+      "image": "desk.jpg"
+    },
+    {
+      "id": 6,
+      "tuote": "USB Streaming Podcast PC Microphone, SUDOTACK professional 192KHZ/24Bit",
+      "valmistaja": "Sudotack",
+      "arvostelut": "6.929",
+      "type": "microphone",
+      "dollarit": 47,
+      "sentit": "99",
+      "rating": 5,
+      "image": "mic.jpg"
+    },
+    {
+      "id": 7,
+      "tuote": "2021 Newest Lenovo Ideapad 3 Laptop, 15.6 Full HD 1080P Non-Touch Display, AMD Ryzen 3 3250U Processor, 8GB DDR4 RAM",
+      "valmistaja": "Lenovo",
+      "arvostelut": "244",
+      "type": "PC",
+      "dollarit": 529,
+      "sentit": "00",
+      "rating": 5,
+      "image": "lenovolaptop.jpg"
+    },
+    {
+      "id": 8,
+      "tuote": "Razer DeathAdder Essential Gaming Mouse: 6400 DPI Optical Sensor - 5 Programmable Buttons - Mechanical Switches - Rubber Side Grips - Mercury White",
+      "valmistaja": "Razer",
+      "arvostelut": "32.972",
+      "type": "mouse",
+      "dollarit": 24,
+      "sentit": "50",
+      "rating": 5,
+      "image": "razer.jpg"
+    },
+    {
+      "id": 9,
+      "tuote": "JAAMIRA Sports Wired Earbuds in-Ear Earphones with Microphone &Volume Control",
+      "valmistaja": "Jaamira",
+      "arvostelut": "599",
+      "type": "headphones",
+      "dollarit": 17,
+      "sentit": "99",
+      "rating": 5,
+      "image": "kuulokkeet.jpg"
+    },
+    {
+      "id": 10,
+      "tuote": "Gaming Keyboard and Mouse Combo CHONCHOW Rainbow LED Backlit USB Wired Key Board with Mice Compatible with PS4 Xbox one PC Computer Gamers",
+      "valmistaja": "Chonchow",
+      "arvostelut": "661",
+      "type": "setit",
+      "dollarit": "20",
+      "sentit": "99",
+      "rating": 5,
+      "image": "keymouseset.jpg"
+    }
+  ]
+}

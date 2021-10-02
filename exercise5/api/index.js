@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const port = 3000
+const port = 4000
 const { v4: uuidv4 } = require('uuid')
 const cors = require('cors');
 const productData = require('./data.json');
@@ -19,7 +19,7 @@ app.get('/products', (req, res) => {
 })
 
 app.get('/products/:id', (req, res) => {
-    const result = productData.items.find(d => d.id === req.params.id)
+    const result = productData.find(d => d.id === req.params.id)
     if (result !== -1)
         res.json(result)
     else
@@ -36,13 +36,13 @@ app.post('/products', (req,res) => {
         description: req.body.description,
         price: req.body.price
     })
-    res.send('Product added!')
+    res.json(productData)
 })
 
 app.delete('/products/:id', (req,res) => {
-    const result = productData.items.findIndex(d => d.id === req.params.id)
+    const result = productData.findIndex(d => d.id === req.params.id)
     if (result !== -1) {
-        productData.items.splice(result, 1);
+        productData.splice(result, 1);
         res.send('Product deleted!')
     } else
         res.send('Product not found!')
@@ -50,7 +50,7 @@ app.delete('/products/:id', (req,res) => {
 
 // ONGELMA!!!!!!
 app.put('/products/:id', (req,res) => {
-    const result = productData.items.find(d => d.id === req.params.id)
+    const result = productData.findIndex(d => d.id === req.params.id)
     if (result !== -1) {
         products[result].name = req.body.name;
         products[result].manufacturer = req.body.manufacturer;
@@ -64,7 +64,7 @@ app.put('/products/:id', (req,res) => {
 
 // Search for products based on name, manufacturer, category
 app.get('/products/:string', (req,res) => {
-    res.json(productData.items.filter(productData.items.tuote || productData.items.type || productData.items.valmistaja));
+    res.json();
 });
 
 // USER
@@ -92,8 +92,10 @@ app.post('/invoices/:userId', (req,res) => {
     totalSum = 0;
     allProducts = [];
     for (let i = 0; req.body.id.length; i++) {
-        total = total + productData.items.price[productData.findIndex(d => d.id == req.params.userId)]
-        allProducts[i] = productData.items[productData.findIndex(d => d.id == req.params.userId)]
+        total = total + productData[productData.findIndex(d => d.id == req.params.userId)]
+    }
+    for (let i = 0; req.body.id.length; i++) {
+        allProducts[i] = productData[productData.findIndex(d => d.id == req.params.userId)]
     }
     invoices.push({
         id: uuidv4(),
@@ -117,7 +119,6 @@ app.get('/invoices/:userId/:id', (req,res) => {
 app.delete('/invoices/:userId/:id', (req,res) => {
     let result = invoices.find(s => s.id == req.params.userId && s.userId == req.params.id)
     invoices.splice(result, 1)
-    res.send("Invoice deleted")
 })
 
 
