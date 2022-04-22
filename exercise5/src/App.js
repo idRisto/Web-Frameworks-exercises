@@ -59,13 +59,13 @@ class App extends React.Component {
   {
     let output =
           <div>
-            <div className={ styles.search }>
-              Search <input type="text" onChange={ this.KunEtsitään } value={ this.state.etsiString }/>
+            <div className={ styles.topBar }>
+              <button className={ styles.admin } onClick={() => this.setState({adminModeActive: !this.state.adminModeActive})}>Admin mode</button>      
+              <div className={ styles.search }>Search <input type="text" onChange={ this.KunEtsitään } value={ this.state.etsiString }/></div>
             </div>
             <Kaikkitavarat
               items={ this.state.items}//.filter((item) => item.tuote.includes( this.state.etsiString )) }
               />
-            <button onClick={() => this.setState({adminModeActive: !this.state.adminModeActive})}>Admin mode</button>
           </div>
 
     if(this.state.adminModeActive) {

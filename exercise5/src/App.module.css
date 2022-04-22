@@ -1,5 +1,17 @@
-.search {
+.topBar {
     background-color: rgb(101, 128, 101);
-    padding: 5px;
-    padding-left: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin {
+        margin-left: 15.5%;
+        height: fit-content;
+}
+
+.search {
+        padding: 5px;
+        margin-right: 25.5%;
 }
