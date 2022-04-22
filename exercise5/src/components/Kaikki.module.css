@@ -1,4 +1,8 @@
 .gridi {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;;
 }
